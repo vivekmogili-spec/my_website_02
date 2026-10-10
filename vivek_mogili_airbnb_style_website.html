@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<meta name="description" content="Vivek Mogili — program management, growth, strategy, operations and analytics.">
+<title>Vivek Mogili — Professional Profile</title>
+<style>
+:root{--ink:#222222;--muted:#717171;--line:#dddddd;--soft:#f7f7f7;--pink:#ff385c;--pink2:#e31c5f;--max:1160px;--radius:18px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:85px}
+body{margin:0;background:#fff;color:var(--ink);font-family:Circular,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;letter-spacing:0;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}button{font:inherit}
+.topbar{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.94);backdrop-filter:blur(16px);border-bottom:1px solid #eee}
+.nav{max-width:var(--max);margin:auto;padding:0 28px;height:78px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{display:flex;align-items:center;gap:9px;font-weight:750;font-size:20px;letter-spacing:-.8px;white-space:nowrap}
+.logo-mark{color:var(--pink);font-size:29px;line-height:1;transform:rotate(-12deg)}
+.navlinks{display:flex;align-items:center;gap:26px;font-size:14px;font-weight:550}
+.navlinks a:hover{color:var(--pink)}
+.navlinks .contact-link{border:1px solid var(--line);border-radius:999px;padding:10px 17px}
+.navlinks .contact-link:hover{border-color:var(--pink)}
+.menu{display:none;border:0;background:transparent;font-size:25px}
+.container{max-width:var(--max);margin:auto;padding:0 28px}
+.hero{padding:66px 0 50px}
+.hero-top{display:flex;justify-content:space-between;align-items:end;gap:28px;margin-bottom:28px}
+.eyebrow{font-size:13px;font-weight:700;color:var(--pink);letter-spacing:.07em;text-transform:uppercase;margin:0 0 11px}
+h1{font-size:clamp(38px,6.3vw,70px);line-height:1.02;letter-spacing:-2.8px;font-weight:650;margin:0;max-width:760px}
+.hero-sub{font-size:18px;color:var(--muted);max-width:570px;margin:19px 0 0}
+.profile-pill{border:1px solid var(--line);border-radius:999px;padding:12px 17px;display:flex;gap:9px;align-items:center;white-space:nowrap;font-size:13px;font-weight:600}
+.status-dot{width:8px;height:8px;border-radius:50%;background:#20a56b}
+.searchbar{border:1px solid #ddd;border-radius:999px;box-shadow:0 3px 12px rgba(0,0,0,.07);display:grid;grid-template-columns:1.2fr 1fr 1fr auto;align-items:center;max-width:850px;margin:30px auto 0;padding:8px}
+.search-item{padding:8px 22px;border-right:1px solid #ddd;min-width:0}
+.search-item strong{display:block;font-size:12px;font-weight:700;margin-bottom:2px}
+.search-item span{display:block;color:var(--muted);font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.search-item:last-of-type{border:0}
+.search-icon{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:var(--pink);color:white;font-size:20px;flex-shrink:0}
+.section{padding:47px 0 30px}
+.section-heading{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:25px}
+h2{font-size:clamp(28px,4vw,39px);line-height:1.12;letter-spacing:-1.2px;font-weight:650;margin:0}
+.section-desc{max-width:490px;color:var(--muted);font-size:15px;margin:0}
+.cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}
+.metric-card{min-width:0}
+.visual{height:178px;border-radius:var(--radius);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;margin-bottom:14px}
+.visual:before,.visual:after{content:"";position:absolute;border-radius:50%}
+.v-pink{background:linear-gradient(135deg,#ffe7ec,#ffd4dc)}.v-pink:before{width:190px;height:190px;background:rgba(255,56,92,.14);right:-40px;top:-75px}.v-pink:after{width:120px;height:120px;border:1px solid rgba(255,56,92,.32);left:-35px;bottom:-30px}
+.v-blue{background:linear-gradient(135deg,#e1f2ff,#c9e5ff)}.v-blue:before{width:160px;height:160px;background:rgba(0,106,255,.12);left:-45px;bottom:-80px}.v-blue:after{width:130px;height:130px;border:1px solid rgba(0,106,255,.3);right:-30px;top:-30px}
+.v-green{background:linear-gradient(135deg,#e1f5eb,#c6e9d9)}.v-green:before{width:180px;height:180px;background:rgba(31,145,94,.1);right:-55px;bottom:-100px}.v-green:after{width:115px;height:115px;border:1px solid rgba(31,145,94,.3);left:-25px;top:-35px}
+.v-purple{background:linear-gradient(135deg,#f0e8ff,#ded0ff)}.v-purple:before{width:180px;height:180px;background:rgba(130,83,220,.12);right:-70px;top:-90px}.v-purple:after{width:130px;height:130px;border:1px solid rgba(130,83,220,.25);left:-50px;bottom:-40px}
+.metric-num{font-size:clamp(31px,3.3vw,45px);font-weight:750;letter-spacing:-2px;position:relative;z-index:1}
+.metric-title{font-size:15px;font-weight:700;margin:0 0 4px}
+.metric-copy{font-size:14px;color:var(--muted);margin:0;line-height:1.45}
+.profile-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.info-card{border:1px solid #e7e7e7;border-radius:var(--radius);padding:28px;background:#fff}
+.info-card h3{font-size:22px;letter-spacing:-.5px;margin:0 0 12px}
+.info-card p{font-size:15px;color:var(--muted);margin:0}
+.tags{display:flex;flex-wrap:wrap;gap:9px;margin-top:18px}
+.tag{font-size:13px;padding:9px 13px;border:1px solid #e6e6e6;border-radius:999px}
+.tag:hover{border-color:var(--pink);color:var(--pink)}
+.career{display:grid;gap:16px}
+.role{display:grid;grid-template-columns:210px 1fr;gap:26px;padding:25px;border:1px solid #e7e7e7;border-radius:var(--radius);transition:box-shadow .2s,transform .2s}
+.role:hover{box-shadow:0 8px 28px rgba(0,0,0,.06);transform:translateY(-2px)}
+.role-company{font-weight:750;font-size:17px;letter-spacing:-.2px}
+.role-date{color:var(--muted);font-size:13px;margin-top:5px}
+.role h3{font-size:21px;letter-spacing:-.5px;margin:0 0 4px}
+.role-sub{color:var(--muted);font-size:13px;margin-bottom:12px}
+.role ul{padding-left:18px;margin:0;color:#555;font-size:14px}
+.role li{margin:5px 0}
+.role li b{color:var(--ink)}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.block{border:1px solid #e7e7e7;border-radius:var(--radius);padding:28px}
+.block h3{font-size:22px;letter-spacing:-.5px;margin:0 0 20px}
+.skill-row{margin-bottom:19px}.skill-row:last-child{margin-bottom:0}
+.skill-row strong{font-size:13px;display:block;margin-bottom:10px}
+.education{padding:14px 0;border-bottom:1px solid #eee}
+.education:last-child{border-bottom:0}
+.education strong{display:block;font-size:15px}.education span{font-size:13px;color:var(--muted)}
+.award{display:flex;gap:12px;align-items:center;padding:13px 0;border-bottom:1px solid #eee}
+.award:last-child{border-bottom:0}.award-icon{width:38px;height:38px;background:#fff0f3;color:var(--pink);border-radius:12px;display:grid;place-items:center;font-size:18px;flex-shrink:0}
+.award strong{font-size:14px;display:block}.award span{font-size:12px;color:var(--muted)}
+.contact{background:#fff4f6;border-radius:26px;padding:48px 30px;text-align:center;margin:55px 0 25px}
+.contact h2{max-width:700px;margin:0 auto}
+.contact p{max-width:530px;margin:15px auto 23px;color:#686868}
+.actions{display:flex;justify-content:center;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;align-items:center;gap:9px;padding:13px 20px;border-radius:999px;background:var(--pink);color:#fff;font-size:14px;font-weight:650;transition:background .2s,transform .2s}
+.btn:hover{background:var(--pink2);transform:translateY(-1px)}
+.btn-outline{background:#fff;color:var(--ink);border:1px solid #ddd}.btn-outline:hover{background:#f8f8f8;color:var(--pink)}
+footer{border-top:1px solid #eee;padding:23px 28px 35px;color:var(--muted);font-size:12px}
+.footer-inner{max-width:var(--max);margin:auto;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.fade{opacity:0;transform:translateY(14px);transition:opacity .55s,transform .55s}.fade.in{opacity:1;transform:none}
+@media(max-width:900px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.visual{height:160px}.hero-top{align-items:start;flex-direction:column}.profile-pill{margin-top:0}}
+@media(max-width:700px){
+ .nav{height:68px;padding:0 20px}.container{padding:0 20px}.navlinks{display:none;position:absolute;top:68px;left:0;right:0;background:white;border-bottom:1px solid #eee;padding:20px;flex-direction:column;align-items:stretch;gap:0}.navlinks.open{display:flex}.navlinks a{padding:12px 4px}.navlinks .contact-link{margin-top:8px;text-align:center}.menu{display:block}
+ .hero{padding:48px 0 30px}h1{letter-spacing:-1.8px}.hero-sub{font-size:16px}
+ .searchbar{grid-template-columns:1fr 1fr;border-radius:22px;gap:0;padding:8px;margin-top:24px}.search-item{padding:11px 12px;border-bottom:1px solid #eee}.search-item:nth-child(2){border-right:0}.search-item:nth-child(3){border-bottom:0}.search-icon{margin:7px;justify-self:end}
+ .section{padding:38px 0 22px}.section-heading{display:block}.section-desc{margin-top:12px}
+ .cards{gap:18px 12px}.visual{height:130px;border-radius:15px}.metric-num{font-size:32px}.metric-title{font-size:14px}.metric-copy{font-size:13px}
+ .profile-grid,.split{grid-template-columns:1fr}.info-card,.block{padding:23px}
+ .role{grid-template-columns:1fr;gap:12px;padding:21px}.role-company{display:inline}.role h3{font-size:19px}
+ .contact{padding:37px 20px;border-radius:20px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.fade{opacity:1;transform:none;transition:none}*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="topbar">
+<nav class="nav" aria-label="Main navigation">
+  <a class="logo" href="#home"><span class="logo-mark">⌁</span><span>Vivek Mogili</span></a>
+  <button class="menu" id="menu" aria-label="Open navigation" aria-expanded="false">☰</button>
+  <div class="navlinks" id="navlinks">
+    <a href="#about">About</a><a href="#highlights">Highlights</a><a href="#experience">Experience</a><a href="#skills">Expertise</a><a href="#education">Education</a><a class="contact-link" href="#contact">Contact ↗</a>
+  </div>
+</nav>
+</header>
+<main id="home">
+<section class="hero container">
+  <div class="hero-top">
+    <div>
+      <p class="eyebrow">Program management · Growth · Analytics</p>
+      <h1>Good strategy.<br>Meaningful impact.</h1>
+      <p class="hero-sub">I’m Vivek Mogili — a program and operations leader with 13.5+ years of experience turning complex business problems into measurable outcomes.</p>
+    </div>
+    <div class="profile-pill"><span class="status-dot"></span> Strategy · People · Performance</div>
+  </div>
+  <div class="searchbar" aria-label="Professional overview">
+    <div class="search-item"><strong>WHAT I DO</strong><span>Growth & program management</span></div>
+    <div class="search-item"><strong>WHERE I’VE WORKED</strong><span>Zomato · Uber · YuppTV · Dell</span></div>
+    <div class="search-item"><strong>MY APPROACH</strong><span>Data-led, people-first</span></div>
+    <a class="search-icon" href="#experience" aria-label="Explore experience">⌕</a>
+  </div>
+</section>
+
+<section class="section container fade" id="about">
+  <div class="section-heading"><h2>My work, at a glance</h2><p class="section-desc">A cross-functional career across growth, analytics, customer experience, digital media and global operations.</p></div>
+  <div class="profile-grid">
+    <article class="info-card"><h3>Strategy that ships</h3><p>I’ve planned and delivered high-impact projects across start-ups and multinational organisations, balancing customer outcomes, business performance and operational realities.</p><div class="tags"><span class="tag">Structured problem solving</span><span class="tag">Program delivery</span><span class="tag">Growth strategy</span></div></article>
+    <article class="info-card"><h3>Leadership that scales</h3><p>I’ve led and mentored teams, built operating processes, partnered across functions and helped people make clearer decisions with data.</p><div class="tags"><span class="tag">People leadership</span><span class="tag">Stakeholder management</span><span class="tag">Operational excellence</span></div></article>
+  </div>
+</section>
+
+<section class="section container fade" id="highlights">
+  <div class="section-heading"><h2>Impact worth sharing</h2><p class="section-desc">Selected outcomes from projects and teams I’ve helped lead.</p></div>
+  <div class="cards">
+    <article class="metric-card"><div class="visual v-pink"><div class="metric-num">~$21M</div></div><p class="metric-title">Annual cost savings</p><p class="metric-copy">Support-cost savings enabled by an automation technology line of business at Uber.</p></article>
+    <article class="metric-card"><div class="visual v-blue"><div class="metric-num">~480</div></div><p class="metric-title">Restaurants onboarded</p><p class="metric-copy">Merchant acquisition at Zomato, contributing around 12% of annual order volume.</p></article>
+    <article class="metric-card"><div class="visual v-green"><div class="metric-num">10–25%</div></div><p class="metric-title">Festival campaign growth</p><p class="metric-copy">Growth delivered across key festival campaigns through data-driven planning.</p></article>
+    <article class="metric-card"><div class="visual v-purple"><div class="metric-num">75–95%</div></div><p class="metric-title">Team pulse scores</p><p class="metric-copy">Manager and pulse survey scores while leading teams supporting global operations.</p></article>
+  </div>
+</section>
+
+<section class="section container fade" id="experience">
+  <div class="section-heading"><h2>Where I’ve made a difference</h2><p class="section-desc">From business analysis and product analytics to global operations and growth management.</p></div>
+  <div class="career">
+    <article class="role"><div><div class="role-company">Zomato</div><div class="role-date">Nov 2024 – Present · India</div></div><div><h3>Program Manager (Growth)</h3><div class="role-sub">Growth strategy · Cluster P&L · Merchant acquisition</div><ul><li>Launched and scaled peripheral localities end-to-end, contributing approximately <b>9.6% of regional order volume</b>.</li><li>Led merchant acquisition, onboarding around <b>480 restaurants</b> and contributing approximately 12% of annual order volume.</li><li>Managed cluster P&L across revenue, costs and profitability, enabling early course correction and target adherence.</li><li>Led data-driven festival strategies delivering <b>10–25% growth</b> across key festivals and integrated marketing campaigns.</li></ul></div></article>
+    <article class="role"><div><div class="role-company">Uber</div><div class="role-date">Jan 2019 – Sep 2024 · Hyderabad</div></div><div><h3>Senior Community Operations Manager</h3><div class="role-sub">Mar 2022 – Sep 2024 · Previously Community Operations Manager</div><ul><li>Led teams of 2–30 analysts supporting APAC and global operations, with manager and pulse survey scores ranging from <b>75% to 95%</b>.</li><li>Program-managed an automation technology line of business that saved approximately <b>$21M in support costs annually</b>.</li><li>Launched a Driver Insights Tool that improved driver experience by 20 basis points and supported agent-experience improvements.</li><li>Led learning, recruitment and onboarding initiatives for an organisation of around 200 analysts.</li><li>Received the Over and Above award (Q2 2019) and APAC CoE Bravo award (Q3 2022).</li></ul></div></article>
+    <article class="role"><div><div class="role-company">YuppTV Inc.</div><div class="role-date">Sep 2015 – Dec 2018 · Hyderabad</div></div><div><h3>Analytics Manager</h3><div class="role-sub">Content analytics · Product analytics · Ad monetisation</div><ul><li>Led content and product analytics influencing business development and content placement across the US, UK, Europe, Australia and India.</li><li>Optimised social and digital marketing spend using campaign insights.</li><li>Delivered engagement and revenue reports supporting corporate development and investor fundraising rounds.</li><li>Program-managed pre-roll and mid-roll ads and Dynamic Ad Insertion rollout to grow ad revenue.</li></ul></div></article>
+    <article class="role"><div><div class="role-company">Dell</div><div class="role-date">Jun 2012 – Aug 2015 · Bengaluru</div></div><div><h3>Business Analysis Advisor · Senior Business Analyst</h3><div class="role-sub">Online analytics · Site search · Social media insights</div><ul><li>Improved site-search performance by analysing revenue per view, click-through rate, bounce rate and online failure rate.</li><li>Analysed customer sentiment and trends across consumer, enterprise and B2B segments, informing marketing, product and pricing teams.</li><li>Built and maintained analytical data structures and demographic profiles to support revenue, units and margin goals.</li><li>Received the Dell Champion award and Dell Bronze Award.</li></ul></div></article>
+    <article class="role"><div><div class="role-company">Cognizant</div><div class="role-date">Jan 2009 – May 2010 · Hyderabad</div></div><div><h3>Programmer Analyst</h3><div class="role-sub">Software support · Quality · User interfaces</div><ul><li>Worked on client projects for LexisNexis and Arbitron, preparing test cases, fixing bugs and customising graphical user interfaces.</li><li>Received a <b>5/5 performance rating</b> from the project manager.</li></ul></div></article>
+  </div>
+</section>
+
+<section class="section container fade" id="skills">
+  <div class="section-heading"><h2>Skills & strengths</h2><p class="section-desc">The combination of analytical depth, business judgement and collaborative execution I bring to teams.</p></div>
+  <div class="split">
+    <div class="block"><h3>Expertise</h3>
+      <div class="skill-row"><strong>Strategy & execution</strong><div class="tags"><span class="tag">Program Management</span><span class="tag">Growth Strategy</span><span class="tag">P&L Management</span><span class="tag">Root Cause Analysis</span><span class="tag">Operational Excellence</span></div></div>
+      <div class="skill-row"><strong>Data & insights</strong><div class="tags"><span class="tag">Business Analysis</span><span class="tag">SQL</span><span class="tag">Requirements Analysis</span><span class="tag">Product Analytics</span><span class="tag">Customer Insights</span></div></div>
+      <div class="skill-row"><strong>Leadership</strong><div class="tags"><span class="tag">People Leadership</span><span class="tag">Stakeholder Management</span><span class="tag">Cross-functional Delivery</span><span class="tag">Mentoring</span><span class="tag">Communication</span></div></div>
+    </div>
+    <div class="block" id="education"><h3>Education</h3>
+      <div class="education"><strong>Management Development Institute</strong><span>MBA, Marketing & Finance · 2010–2012</span></div>
+      <div class="education"><strong>Andhra University</strong><span>Engineering degree, Electronics & Communications · 2004–2008</span></div>
+      <div class="education"><strong>Narayana Junior College</strong><span>Intermediate, MPC · 2002–2004</span></div>
+      <div class="education"><strong>MVP Public School</strong><span>High School, ICSE · 2001–2002</span></div>
+      <h3 style="margin-top:25px">Certifications & recognition</h3>
+      <div class="award"><div class="award-icon">✦</div><div><strong>FRM Level I & Level II</strong><span>Financial Risk Manager examinations</span></div></div>
+      <div class="award"><div class="award-icon">◈</div><div><strong>CFA Level I</strong><span>Finance and investment fundamentals</span></div></div>
+      <div class="award"><div class="award-icon">✧</div><div><strong>Operational Excellence Foundations · People Analytics</strong><span>Additional certifications</span></div></div>
+      <div class="award"><div class="award-icon">★</div><div><strong>Dell Champion · Dell Bronze Award</strong><span>Professional recognition</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="container fade" id="contact">
+  <div class="contact"><p class="eyebrow">Let’s connect</p><h2>Good conversations can lead to great work.</h2><p>Interested in product, growth, analytics, operations or solving a complex business problem? I’d be glad to connect.</p><div class="actions"><a class="btn" href="mailto:vivek.polymath@gmail.com">Email Vivek ↗</a><a class="btn btn-outline" href="https://www.linkedin.com/in/vivek-mogili/" target="_blank" rel="noopener noreferrer">LinkedIn profile ↗</a></div></div>
+</section>
+</main>
+<footer><div class="footer-inner"><span>© <span id="year">2026</span> Vivek Mogili</span><span>Thoughtful work. Clear outcomes. People first.</span><a href="#home">Back to top ↑</a></div></footer>
+<script>
+const menu=document.getElementById('menu'),links=document.getElementById('navlinks');
+menu.addEventListener('click',()=>{const open=links.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.textContent=open?'×':'☰';});
+links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{links.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.textContent='☰';}));
+document.getElementById('year').textContent=new Date().getFullYear();
+const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');observer.unobserve(e.target);}}),{threshold:.07});
+document.querySelectorAll('.fade').forEach(el=>observer.observe(el));
+</script>
+</body>
+</html>
